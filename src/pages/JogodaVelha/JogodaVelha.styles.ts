@@ -1,12 +1,10 @@
 import { styled } from "@mui/system";
+import pacmanImg from "../../public/img/MUW4Dh6.jpg"
 
 export const Container = styled("div")({
-  position:"absolute",
-  top:0,
-  left:0,
   width:"100vw",
   height:"100vh",
-  background:"rgba(0, 0, 0, 0.7)",
+  backgroundImage:`url(${pacmanImg})`,
   display:"flex",
   justifyContent:"center",
   alignItems:"center",
@@ -46,4 +44,40 @@ export const ItemDiv = styled ("div")({
   margin:"5px",
   color:"white",
   backgroundColor:"blue",
+});
+
+export const Difficult = styled ("div")({
+  top:"50vh",
+  position:"absolute",
+  backgroundColor:"gray",
+  borderRadius:"10px",
+  width:"20vw",
+  minWidth:"225px",
+  maxWidth:"390px",
+  textAlign:"center",
+  div:{
+    display:"flex",
+    justifyContent:"space-between",
+    padding:"10px",
+  },
+  button:{
+    borderRadius:"10px",
+    height:"50px",
+  },
+});
+
+export const SurrenderDiv = styled("div")({
+  marginTop:"10px",
+  display:"flex",
+  cursor:"pointer",
+  justifyContent:"center",
+  alignItems:"center",
+  backgroundColor:"white",
+  width:"90px",
+  height:"90px",
+  borderRadius:"50px",
+  img:{
+    width:"60px",
+    height:"60px",
+  }
 });

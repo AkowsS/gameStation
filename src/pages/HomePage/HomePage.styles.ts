@@ -36,24 +36,16 @@ export const DivCard = styled("div")({
     flexDirection:"column",
     alignItems:"center",
   },
-});
-
-export const DivGame1 = styled("div")({
-
-});
-
-export const DivBack = styled ("div")({
-  position:"absolute",
-  bottom:"10px",
-  display:"flex",
-  justifyContent:"center",
-  alignItems:"center",
-  cursor: "pointer",
-  marginLeft:"-40%",
-  h1:{
-    margin:0,
-  },
   img:{
-    width:"60px",
+    height:"30vh",
+    cursor:"pointer",
   },
+});
+
+export const DivInfo = styled("div")({
+  width:"200px",
+  p:{
+    margin:"0px",
+    color:"white",
+  }
 });
