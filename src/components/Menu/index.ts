@@ -1,1 +1,1 @@
-export {Menu} from "./Menu.tsx"
+export { Menu } from "./Menu.tsx";

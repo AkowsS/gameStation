@@ -1,1 +1,1 @@
-export {JogodaVelha} from "./JogodaVelha.tsx"
+export { JogodaVelha } from "./JogodaVelha.tsx";
